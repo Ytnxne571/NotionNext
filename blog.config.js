@@ -213,23 +213,23 @@ const BLOG = {
 
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
-    password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || '密码',//文章密码
+    password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || '密码',//文章密码，
     type: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE || '页面属性', // 页面属性，
-    type_post: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_POST || '博文', // 当type文章类型与此值相同时，为博文。Post
-    type_page: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_PAGE || '单页', // 当type文章类型与此值相同时，为单页。Page
-    type_notice: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_NOTICE || '公告', // 当type文章类型与此值相同时，为公告。Notice
-    type_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_MENU || '菜单页', // 当type文章类型与此值相同时，为菜单。Menu
-    type_sub_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_SUB_MENU || '子菜单页', // 当type文章类型与此值相同时，为子菜单。SubMenu
-    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || '文章标题', // 文章标题
-    status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || '文章状态',文章状态
-    status_publish: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_PUBLISH || '发布', // 当status状态值与此相同时为发布，可以为中文Published
-    status_invisible: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_INVISIBLE || '隐藏', // 当status状态值与此相同时为隐藏发布，可以为中文 ，Invisible 除此之外其他页面状态不会显示在博客上
-    summary: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SUMMARY || '摘要',//摘要
-    slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || '文章路径',//文章路径
-    category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || '文章类型',//文章类型
-    date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || '日期',//发布显示日期
-    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签',//文章标签
-    icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon'//页面图片
+    type_post: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_POST || '博文', // 当type文章类型与此值相同时，为博文Post，
+    type_page: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_PAGE || '单页', // 当type文章类型与此值相同时，为单页Page，
+    type_notice: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_NOTICE || '公告', // 当type文章类型与此值相同时，为公告Notice，
+    type_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_MENU || '菜单页', // 当type文章类型与此值相同时，为菜单Menu，
+    type_sub_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_SUB_MENU || '子菜单页', // 当type文章类型与此值相同时，为子菜单。SubMenu，
+    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || '文章标题', // 文章标题，
+    status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || '文章状态',文章状态，
+    status_publish: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_PUBLISH || '发布', // 当status状态值与此相同时为发布，可以为中文Published，
+    status_invisible: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_INVISIBLE || '隐藏', // 当status状态值与此相同时为隐藏发布，可以为中文 ，Invisible 除此之外其他页面状态不会显示在博客上，
+    summary: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SUMMARY || '摘要',//摘要，
+    slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || '文章路径',//文章路径，
+    category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || '文章类型',//文章类型，
+    date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || '日期',//发布显示日期，
+    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签',//文章标签，
+    icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon'，//页面图片，
   },
 
   // RSS
